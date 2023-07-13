@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  temporal:
+    connection:
+      target: local
+    namespace: gojha
+    workers-auto-discovery:
+      packages: dev.gauravojha.learningtemporal
+    start-workers: true
