@@ -304,4 +304,5 @@ Temporary Items
 *.icloud
 build
 
+!gradle/wrapper/gradle-wrapper.jar
 # End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+all,intellij+iml,macos,java,linux
